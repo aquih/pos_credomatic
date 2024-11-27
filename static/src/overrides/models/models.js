@@ -62,4 +62,5 @@ patch(Order.prototype, {
             this.paymentlines[i].numero_autorizacion_anulacion = paymentlines[i][2].numero_autorizacion_anulacion;
         }
     },
+
 });
