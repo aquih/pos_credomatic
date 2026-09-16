@@ -8,14 +8,14 @@
             <xpath expr="//sheet" position="inside">
                 <group>
                     <field name="lineas_cierre_ids">
-                        <tree editable="bottom">
+                        <list editable="bottom">
                             <field name="lote"/>
                             <field name="tipo"/>
                             <field name="salesAmount"/>
                             <field name="salesTransactions"/>
                             <field name="refundsAmount"/>
                             <field name="refundsTransactions"/>
-                        </tree>
+                        </list>
                     </field>
                 </group>
             </xpath>
